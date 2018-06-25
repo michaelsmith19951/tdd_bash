@@ -1,3 +1,5 @@
+# First function
 def first_array()
-	one_num = ["1357"]
+	winning_num = ["4"]
 end
+
