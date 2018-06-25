@@ -14,5 +14,6 @@ def test_if_array_is_a_class
 def test_if_array_contains_strings
 		assert_equal("1", first_array[0])
 		assert_equal("2", first_array[1])
+		assert_equal("4", first_array[2])
 	end
 end
