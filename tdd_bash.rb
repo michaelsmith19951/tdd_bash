@@ -1,5 +1,5 @@
-# First function
-def first_array()
-	winning_num = ["1", "2", "4", "7"]
+# First function with the winning number array
+def first_array(a, b, c, d)
+	
 end
 

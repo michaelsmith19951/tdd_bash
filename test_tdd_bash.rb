@@ -9,12 +9,4 @@ class TestTddBash < Minitest::Test
 
 # Functions for each test
 def test_if_array_is_a_class
-		assert_equal(Array, first_array().class)
-	end
-def test_if_array_contains_strings
-		assert_equal("1", first_array[0])
-		assert_equal("2", first_array[1])
-		assert_equal("4", first_array[2])
-		assert_equal("7", first_array[3])
-	end
 end
