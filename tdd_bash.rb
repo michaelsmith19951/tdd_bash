@@ -1,5 +1,5 @@
 # Function with two tickets
-def number_comparison(myticket, winningticket)
+	def number_comparison(myticket, winningticket)
 	my_ticket = myticket.split('')
 	puts "My ticket is #{my_ticket}"
 	winning_ticket = winningticket.split('')
@@ -13,4 +13,9 @@ def number_comparison(myticket, winningticket)
 	end
 	matching_numbers
 end
+
+# Function with two more tickets
+	def end_result(my_tickets, winning_tickets)
+	[]
+	end
 
