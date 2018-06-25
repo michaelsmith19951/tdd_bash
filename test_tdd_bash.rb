@@ -8,5 +8,7 @@ require_relative "tdd_bash.rb"
 class TestTddBash < Minitest::Test
 
 # Functions for each test
-def test_if_array_is_a_class
+	def test_number_comparison_returns_number
+	assert_equal(Integer, number_comparison("", "").class)
+	end
 end

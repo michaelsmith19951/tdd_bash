@@ -1,5 +1,5 @@
-# First function with the winning number array
-def first_array(a, b, c, d)
+# First function with two tickets
+def number_comparison(ticket_one, ticket_two)
 	
 end
 
