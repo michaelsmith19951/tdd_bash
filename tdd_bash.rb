@@ -1,4 +1,4 @@
-# Function with two tickets
+# First function 
 	def number_comparison(myticket, winningticket)
 	my_ticket = myticket.split('')
 	puts "My ticket is #{my_ticket}"
@@ -14,16 +14,39 @@
 	matching_numbers
 end
 
-# Function with two more tickets
+# Second function
 	def check_for_match_arr(myticketarray, winningticket)
 	empty = []
 	myticketarray.each do |num|
 		number_comparison(num, winningticket)
 	if number_comparison(num, winningticket) == 1
-	num = num
 	empty << num
 	end
 	end
 	empty
 end
+
+# Third function
+	def check_for_match_arr_2(myticketarray, winningticket)
+		empty = []
+		myticketarray.each do |num|
+			empty << number_comparison(num, winningticket)
+	end
+	empty
+end
+
+# Fourth function
+	def winarr(myticketarray, winningticket)
+		warr = []
+		winningticket.each do |num|
+			matches = check_for_match_arr(myticketarray, num)
+			winners = 0
+			matches.each do |m|
+				if m == 0
+					winners += 1
+				end
+			end
+			warr << winners
+		end
+	end
 
