@@ -23,7 +23,7 @@ end
 	num = num
 	empty << num
 	end
-	empty
 	end
+	empty
 end
 
