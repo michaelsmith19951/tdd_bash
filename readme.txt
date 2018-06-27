@@ -1,0 +1,1 @@
+This is an application that tests to see if lottery ticket numbers match. The "tdd" method (test driven development) was used to test the application for passes and failures. 
