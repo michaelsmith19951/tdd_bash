@@ -7,7 +7,7 @@
 	matching_numbers = 0
 	winning_ticket.each_with_index do |num, index|
 	puts "The number is #{num} and the index is #{index}."
-		if num == myticket[index]
+		unless num == myticket[index]
 			matching_numbers = matching_numbers + 1
 		end
 	end
@@ -15,7 +15,11 @@
 end
 
 # Function with two more tickets
-	def end_result(my_tickets, winning_tickets)
-	[]
+	def check_for_match_arr(myticketarray, winningticket)
+	empty = []
+	myticketarray.each do |num|
+	empty << number_comparison(num, winningticket)
 	end
+	empty
+end
 

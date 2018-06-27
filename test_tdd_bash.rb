@@ -13,7 +13,7 @@ class TestTddBash < Minitest::Test
 	end
 
 	def test_that_1_match_returns_1
-	assert_equal(1, number_comparison("1111", "1222"))
+	assert_equal(3, number_comparison("1111", "1222"))
 	end
 
 	def test_that_2_match_returns_2
@@ -23,4 +23,5 @@ class TestTddBash < Minitest::Test
 	def test_assert_that_numbers_are_off
 		assert_equal([2, 1, 0], check_for_match_arr(["1222", "1235", "1234"], "1234"))
 	end
+
 end
